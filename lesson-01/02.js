@@ -8,7 +8,7 @@
 // your code
 let factorial =1
 let count = 1
-while (count < 20){
+while (count < 10){
     factorial=factorial*(count+1)
     count++
 }
