@@ -7,8 +7,8 @@
 // your code
 let sum =0
 let count = 1
-while (count < 20){
-    sum=sum+count
-    count=count +2
+while (count<20){
+  sum=sum + (count%2)*count
+  count++
 }
 console.log(sum)
