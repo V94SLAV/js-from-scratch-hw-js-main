@@ -5,4 +5,10 @@
 */
 
 // your code
-let sum
+let sum =0
+let count = 1
+while (count < 20){
+    sum=sum+count
+    count=count +2
+}
+console.log(sum)
