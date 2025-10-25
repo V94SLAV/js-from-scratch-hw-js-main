@@ -10,7 +10,7 @@
 let dice1 = Math.floor(Math.random()*6) + 1 // your code
 let dice2 = Math.floor(Math.random()*6) + 1
 let isWinningDouble
-if ((dice1 >=3 && dice2 >=3) && (dice1 = dice2)){
+if ((dice1 >3 && dice2 >3) && (dice1 = dice2)){
   isWinningDouble = true
 }
   else {
