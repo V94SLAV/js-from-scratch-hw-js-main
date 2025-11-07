@@ -5,16 +5,26 @@
  */
 
 const score = 70 // тестовое значение, можно изменять
+const MAX_A = 100
+const MIN_A = 90
+const MAX_B = 89
+const MIN_B = 80
+const MAX_C = 79
+const MIN_C = 70
+const MAX_D = 69
+const MIN_D = 50
+const MAX_F = 49
+const MIN_F = 0
 let grade
-if (score>=90 && score <=100){
+if (score>=MIN_A && score <=MAX_A){
     grade = 'A'
-} else if (score>=80 && score <=89){
+} else if (score>=MIN_B && score <=MAX_B){
     grade = 'B'
-} else if (score>=70 && score <=79){
+} else if (score>=MIN_C && score <=MAX_C){
     grade = 'C'
-} else if (score>=50 && score <=69){
+} else if (score>=MIN_D && score <=MAX_D){
     grade = 'D'
-} else if (score>=0 && score <=49){
+} else if (score>=MIN_F && score <=MAX_F){
     grade = 'F'
     }
 console.log(grade)
