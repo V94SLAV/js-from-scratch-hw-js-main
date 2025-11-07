@@ -16,15 +16,15 @@ const MIN_D = 50
 const MAX_F = 49
 const MIN_F = 0
 let grade
-if (score>=MIN_A && score <=MAX_A){
+if (score >= MIN_A && score <= MAX_A){
     grade = 'A'
-} else if (score>=MIN_B && score <=MAX_B){
+} else if (score >= MIN_B && score <= MAX_B){
     grade = 'B'
-} else if (score>=MIN_C && score <=MAX_C){
+} else if (score >= MIN_C && score <= MAX_C){
     grade = 'C'
-} else if (score>=MIN_D && score <=MAX_D){
+} else if (score >= MIN_D && score <= MAX_D){
     grade = 'D'
-} else if (score>=MIN_F && score <=MAX_F){
+} else if (score >= MIN_F && score <= MAX_F){
     grade = 'F'
     }
 console.log(grade)
